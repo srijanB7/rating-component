@@ -10,12 +10,16 @@
     --primary: Orange: hsl(25, 97%, 53%);
     font-family: Overpass;
 }
+* {
+    margin: 0;
+}
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: var(--VeryDarkBlue);
+    flex: 1;
 }
 .container {
     background-color: var(--DarkBlue);
