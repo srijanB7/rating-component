@@ -19,10 +19,13 @@ body {
 }
 .container {
     background-color: var(--DarkBlue);
-    height: 50%;
+    height: 300px;
     width: 350px;
     border-radius: 32px;
-    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-content {
